@@ -118,3 +118,4 @@ Simply replace the placeholder divs with `<img>` tags pointing to your images.
 - Social media links are functional and open in new tabs
 - All components are reusable and well-structured
 
+

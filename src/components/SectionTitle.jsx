@@ -17,3 +17,4 @@ const SectionTitle = ({ title, subtitle, className = '' }) => {
 
 export default SectionTitle;
 
+

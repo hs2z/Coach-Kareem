@@ -3,6 +3,7 @@ import Button from '../components/Button';
 import { coachInfo } from '../data/content';
 import coachImage from '../assets/img/C.KM.jpg';
 
+
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
@@ -44,4 +45,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
 

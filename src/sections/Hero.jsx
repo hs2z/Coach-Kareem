@@ -14,6 +14,7 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Text Content */}
           <div className="text-center md:text-left">
+            <h1></h1>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold font-display text-white mb-4 leading-tight">
               {coachInfo.name}
             </h1>

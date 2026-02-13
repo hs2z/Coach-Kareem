@@ -33,8 +33,8 @@ const About = () => {
           </div>
           
           {/* Image Placeholder */}
-                
-          <div className="image-placeholder min-h-[500px] md:min-h-[500px]">
+          
+                 <div className="relative min-h-[400px] md:min-h-[500px] lg:min-h-[600px] rounded-lg overflow-hidden">
                             <img 
                               src={coachImage2} 
                               alt="Coach Kareem Maged" 
@@ -43,6 +43,7 @@ const About = () => {
                           </div>
               </div>
             </div>
+         
     </section>
   );
 };

@@ -24,9 +24,17 @@ const Hero = () => {
               {coachInfo.subheadline}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Button size="lg" fullWidth className="sm:w-auto">
-                Join Now
+             <a
+               href={`https://wa.me/${coachInfo.whatsapp}`}
+                  target="_blank" rel="noopener noreferrer" >
+              <Button size="lg" fullWidth className="sm:w-auto" >            
+              <div className="flex flex-col items-center text-center">
+                
+                <h3 className="text-lg font-bold text-white mb-2">Join Now</h3>
+                <p className="text-gray-400 text-sm">{coachInfo.whatsapp}</p>
+              </div>
               </Button>
+              </a>
             </div>
           </div>
           
